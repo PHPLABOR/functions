@@ -6,7 +6,6 @@
  */
 function getPublicIP()
 {
-
     $headers = [
         "HTTP_CLIENT_IP",
         "HTTP_X_FORWARDED_FOR",
